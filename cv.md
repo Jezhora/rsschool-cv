@@ -43,3 +43,7 @@ Lead specialist in foreign economic activity
 
 + Русский
 + English A1 (_A2 in progress_ Started studying at [italki](htpps://italki.com) and use Lingualeo)
+
+***
+
+[![RSschool](https://github.com/Jezhora/first/blob/main/img/rsschool-logo.jpg?raw=true)](https://rs.school/)
