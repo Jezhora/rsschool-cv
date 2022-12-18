@@ -62,9 +62,7 @@ nav {
   color: #000000;
   background-color: none;
 }
-.column__l_contact i {
-  font-weight: 100;
-}
+
 .column__l img {
   width: 100%;
   margin-top: 10px;
@@ -100,7 +98,7 @@ nav {
 .column__r .subheader {
   width: 220px;
   height: 59px;
-  margin: 85px 0 40px 70px;
+  margin: 90px 0 20px 70px;
   padding-top: 12px;
   background-color: #373737;
 }
@@ -114,7 +112,17 @@ nav {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  margin: 40px 0 20px 100px;
+  margin: 20px 0 0 100px;
+  list-style: none;
+}
+.subheader_descr li {
+  margin-top: 25px;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  font-size: 20px;
 }
 
 
