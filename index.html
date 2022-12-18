@@ -5,8 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b55f1546a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li class="nav__item"><a href="#about">About Me</a></li>
+        <li class="nav__item"><a href="#education">Education</a></li>
+        <li class="nav__item"><a href="#experience">Experience</a></li>
+        <li class="nav__item"><a href="#skills">Skills</a></li>
+        <li class="nav__item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="column__l">
+        <ul class="contact" id="contact">
+          <li><i class="fa-solid fa-house"></i> Belarus</li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+375292839183"> +375292839183</a></li>
+          <li><i class="fa-solid fa-envelope"></i> jezhora.photo@gmail.com</li>
+          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/eugene-jezhora/"> Eugene Jezhora</a></li>
+          <li><i class="fa-brands fa-github"></i><a href="https://github.com/jezhora"> Jezhora</a></li>
+        </ul>
+        <img src="port.jpg" alt="me">
+        <div class="subheader about" id="about">
+          <h2>About Me</h2>
+        </div>
+        <div class="subheader__descr about">
+          I'm 37. One day I watched a YouTube video about front-end development and realized that it is very close to me. From now on, I devote all my free time to learn English and front-end development
+        </div>
+        <div class="subheader about">
+          <h2>Code Example</h2>
+        </div>
+        <div class="subheader__descr code">
+          <pre>
+
+            function multiply(a, b){
+              return a * b
+          }
+          </pre>
+        </div>
+      </div>
+      <div class="column__r">
+        <div class="header">
+          <h1>Yauheni Jezhora</h1>
+          <div class="header__junior">
+            junior frontend developer
+          </div>
+        </div>
+        <div class="subheader" id="education">
+          <h2>Education</h2>
+        </div>
+          <ul class="subheader__descr">
+            <li>
+              <i>2015-2019</i> <br>
+              <b>Volga State University of Service</b><br>
+              <i>Management</i>
+            </li>
+            <li>
+              <i>oct.2022-to date</i> <br>
+              <b>Udemy course Front-end development</b><br>
+              <i>in progress</i>s
+            </li>
+            <li>
+              <i>dec.2022-to date</i> <br>
+              <b>RSschool JavaScript/Front-end. Stage 0</b><br>
+              <i>in progress</i>
+            </li>
+          </ul>
+        <div class="subheader" id="experience">
+          <h2>Experience</h2>
+        </div>
+          <ul class="subheader__descr">
+            <li>
+              <i>2004-2016</i><br>
+              <b>Photographer</b>
+            </li>
+            <li>
+              <i>2016-to date</i><br>
+              <b>Lead specialist in foreign economic activity</b>
+            </li>
+          </ul>
+        <div class="subheader" id="skills">
+          <h2>Skills</h2>
+        </div>
+        <ul class="subheader__descr skills">
+          <li><i class="fa-brands fa-html5"></i> HTML</li>
+          <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+          <li><i class="fa-brands fa-sass"></i> SASS/SCSS</li>
+          <li><i class="fa-brands fa-git-alt"></i> GIT</li>
+          <li><i class="fa-brands fa-figma"></i> FIGMA</li>
+        </ul>
+        <div class="subheader">
+          <h2>Languages</h2>
+        </div>
+        <ul class="subheader__descr skills">
+          <li>
+            <b>Русский</b>
+          </li>
+          <li>
+            <b>English A1</b> (<i>A2 in progress</i>)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <hr>
+   <div class="container">
+    <div class="footer">
+      <div class="footer__git">
+        2022 <a href="https://github.com/jezhora" target="_blank"><i class="fa-brands fa-github"></i>Jezhora</a>
+      </div>
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="rs_logo.svg" alt="logo" class="footer__rs"></a>
+    </div>
+   </div>
+  </footer>
 </body>
 </html>
