@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b55f1546a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,18 +15,18 @@
   <header>
     <nav>
       <ul class="nav">
-        <li class="nav__item"><a href="#">About Me</a></li>
-        <li class="nav__item"><a href="#">Education</a></li>
-        <li class="nav__item"><a href="#">Experience</a></li>
-        <li class="nav__item"><a href="#">Skills</a></li>
-        <li class="nav__item"><a href="#">Contact</a></li>
+        <li class="nav__item"><a href="#about">About Me</a></li>
+        <li class="nav__item"><a href="#Education">Education</a></li>
+        <li class="nav__item"><a href="#Expirience">Experience</a></li>
+        <li class="nav__item"><a href="#Skills">Skills</a></li>
+        <li class="nav__item"><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div class="container">
       <div class="column__l">
-        <ul class="column__l_contact">
+        <ul class="contact">
           <li><i class="fa-solid fa-house"></i> Belarus</li>
           <li><i class="fa-solid fa-phone"></i><a href="tel:+375292839183"> +375292839183</a></li>
           <li><i class="fa-solid fa-envelope"></i> jezhora.photo@gmail.com</li>
@@ -32,7 +34,7 @@
           <li><i class="fa-brands fa-github"></i><a href="https://github.com/jezhora"> Jezhora</a></li>
         </ul>
         <img src="port.jpg" alt="me">
-        <div class="subheader about">
+        <div class="subheader about" id="about">
           <h2>About Me</h2>
         </div>
         <div class="subheader__descr about">
@@ -119,11 +121,9 @@
    <div class="container">
     <div class="footer">
       <div class="footer__git">
-        2022<a href="https://github.com/jezhora"><i class="fa-brands fa-github"></i>Jezhora</a>
+        2022 <a href="https://github.com/jezhora" target="_blank"><i class="fa-brands fa-github"></i>Jezhora</a>
       </div>
-      <div class="footer__rs">
-        <img src="rs_logo.svg" alt="logo">
-      </div>
+        <a href="https://rs.school/js-stage0/" target="_blank"><img src="rs_logo.svg" alt="logo" class="footer__rs"></a>
     </div>
    </div>
   </footer>
