@@ -97,18 +97,20 @@ nav {
   text-transform: uppercase;
   background-color: #EA8952;
 }
-.column__r .edu__exp {
+.column__r .subheader {
   width: 220px;
   height: 59px;
   margin: 85px 0 40px 70px;
   padding-top: 12px;
+  background-color: #373737;
+}
+.column__r .subheader h2 {
   font-weight: 600;
   font-size: 29px;
   text-align: center;
   color: #ffffff;
-  background-color: #373737;
 }
-.edu__exp_descr p {
+.subheader_descr {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
