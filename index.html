@@ -34,21 +34,25 @@
           <li><i class="fa-brands fa-github"></i><a href="https://github.com/jezhora"> Jezhora</a></li>
         </ul>
         <img src="port.jpg" alt="me">
-        <div class="subheader about" id="about">
-          <h2>About Me</h2>
-        </div>
-        <div class="subheader__descr about">
-          I'm 37. One day I watched a YouTube video about front-end development and realized that it is very close to me. From now on, I devote all my free time to learn English and front-end development
-        </div>
-        <div class="subheader about">
+        <div class="subheader code">
           <h2>Code Example</h2>
         </div>
-        <div class="subheader__descr code">
+        <div class="subheader__descr example">
           <pre>
-
-            function multiply(a, b){
-              return a * b
-          }
+            
+            const lines = 5;
+            let result = '';
+            
+            for (let i = 0; i <= lines; i++) {
+                for (let k = 0; k < lines - i; k++){
+                    result += ' ';
+                }
+                for (let l = 0; l < 2 * i + 1; l++ ) {
+                    result += '*';
+                }
+                result += '\n';
+            }
+            console.log(result)
           </pre>
         </div>
       </div>
@@ -58,6 +62,12 @@
           <div class="header__junior">
             junior frontend developer
           </div>
+        </div>
+        <div class="subheader" id="about">
+          <h2>About Me</h2>
+        </div>
+        <div class="subheader__descr">
+          I'm 38. One day I watched a YouTube video about front-end development and realized that it is very close to me. From now on, I devote all my free time to learn English and front-end development
         </div>
         <div class="subheader" id="education">
           <h2>Education</h2>
@@ -69,12 +79,12 @@
               <i>Management</i>
             </li>
             <li>
-              <i>oct.2022-to date</i> <br>
-              <b>Udemy course Front-end development</b><br>
+              <i>apr.2023 to date</i> <br>
+              <b>Udemy course JavaScript</b><br>
               <i>in progress</i>s
             </li>
             <li>
-              <i>dec.2022-to date</i> <br>
+              <i>june.2023-to date</i> <br>
               <b>RSschool JavaScript/Front-end. Stage 0</b><br>
               <i>in progress</i>
             </li>
@@ -100,7 +110,7 @@
           <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
           <li><i class="fa-brands fa-sass"></i> SASS/SCSS</li>
           <li><i class="fa-brands fa-git-alt"></i> GIT</li>
-          <li><i class="fa-brands fa-figma"></i> FIGMA</li>
+          <li><i class="fa-brands fa-js"></i> JS</li>
         </ul>
         <div class="subheader">
           <h2>Languages</h2>
@@ -110,7 +120,7 @@
             <b>Русский</b>
           </li>
           <li>
-            <b>English A1</b> (<i>A2 in progress</i>)
+            <b>English A2</b> (<i>in progress</i>)
           </li>
         </ul>
       </div>
