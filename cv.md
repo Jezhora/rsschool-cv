@@ -14,6 +14,7 @@ One day I wached a YouTube video about front-end development and realized that t
 ## Skills
 + HTML
 + CSS (_SASS_, SCSS)
++ JS
 + Figma
 + Zeplin
 + Photoshop
@@ -36,13 +37,14 @@ Lead specialist in foreign economic activity
 ## Education
 
 + Volga State University of Service _Management_
++ [RSschool JavaScript/Front-end.Stage 0 JSFEPRESCHOOL2023Q2](https://rs.school/js-stage0/)
 + [Udemy course Fron-end development _in progress_](https://www.udemy.com/course/webdeveloper/)
-+ [RSschool JavaScript/Front-end.Stage 0 _in progress_](https://rs.school/js-stage0/)
+
 
 ## Languages
 
 + Русский
-+ English A1 (_A2 in progress_ Started studying at [italki](htpps://italki.com) and use Lingualeo)
++ English A2 (every day in progress)
 
 ***
 
