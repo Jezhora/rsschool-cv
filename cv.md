@@ -4,7 +4,7 @@
 + _Location_: Belarus
 + _Tel_: [+375292839183](tel:+375292839183)
 + _Email_: jezhora.photo@gmail.com
-+ _Linkedin_: [Eugene Jezhora](htpps://linkedin.com/in/eugene-jezhora)
++ _Linkedin_: [Eugene Jezhora](https://linkedin.com/in/eugene-jezhora)
 + _GitHub_: [Jezhora](https://github.com/jezhora)
 
 ## About Me
